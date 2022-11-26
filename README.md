@@ -1,2 +1,1 @@
-# daffa.github.io
-Capstone Project Team
+# Capstone Project Team

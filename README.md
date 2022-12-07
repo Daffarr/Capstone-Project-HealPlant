@@ -1,5 +1,7 @@
 # *Capstone Project* - *Heal Plant*
 
+## Nama Anggota
+
 <table>
     <thead>
         <tr>
@@ -32,5 +34,34 @@
     </tbody>
 </table>
 
+## Paket Pembelajaran
+*Machine Learning and Front-End Web*
 
+## Tema Yang Dipilih
+Solusi terkait Kesehatan dan Kesejahteraan Lingkungan
 
+## Judul Proyek 
+Sistem Pendeteksi Penyakit Pada Tanaman
+
+## Executive Summary:
+
+## Project Scope & Delivariables
+
+### Deliveriables
+### Garis Besar Proyek
+
+## Project Resources 
+
+## Risk and issue Management Plan
+
+### Strengths
+### Weakness
+### Opportunities
+### Threat
+
+## SWOT Project Capstone
+
+### Strengths
+### Weakness
+### Opportunities
+### Threat

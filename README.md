@@ -5,7 +5,7 @@
 <table>
     <thead>
         <tr>
-            <td colspan=2 style="text-align:center;"><b><i>Team ID</i> C22-118</b></td>
+            <th colspan=2 style="text-align:center;"><b><i>Team ID</i> C22-118</b></th>
         </tr>
     </thead>
     <thead>

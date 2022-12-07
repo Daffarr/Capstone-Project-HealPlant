@@ -20,7 +20,7 @@
             <td>Daffa Rayhan Riadi</td>
         </tr>
         <tr>
-            <td>M120X0173</td>
+            <td>M120X0176</td>
             <td>Fajar Maulana Thaariq Alburuuj</td>
         </tr>
         <tr>

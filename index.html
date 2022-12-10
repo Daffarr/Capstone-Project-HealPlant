@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Heal Plant</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -33,11 +34,11 @@
                     Mengklasifikasikan kondisi tanaman melalui gambar menggunakan teknik Machine Learning Image
                     Classification.
                 </p>
-                <a href="#content" class="btn btn-lg btn-outline-light" type="button">Coba Sekarang</a>
+                <a href="#classification" class="btn btn-lg btn-outline-light" type="button">Coba Sekarang</a>
             </section>
             <section class="col-lg-6 col-12 me-auto mt-3">
-                <img src="./assets/img/plant.svg"
-                    alt="Plant-Logo" class="img-fluid rounded" style="margin-left: 200px;" width="500">
+                <img src="./assets/img/frame.png"
+                    alt="Plant-Logo" class="img-fluid rounded w-100">
             </section>
         </div>
     </div>
@@ -46,8 +47,11 @@
             <div class="col-md-6 text-center">
                 <div class="py-2 px-2">
                     <h2 id="classification">Classification</h2>
-                    <div class="input-group mb-3">
-                        <input type="file" class="form-control" id="inputGroupFile02" type="file" accept="image/*" onchange="document.getElementById('preview0').src = window.URL.createObjectURL(this.files[0]);">
+                    <div class="w-100" style="border-style: dashed; border-radius: 20px; object-fit: cover;" >
+                        <img id="blah" src="assets/img/picture.svg" alt="your image" style="width: 30%; padding-top: 50px; padding-bottom: 50px; border-radius: 20px; object-fit: cover; max-height: 280px;"/>
+                    </div>
+                    <div class="input-group mb-3 mt-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" type="file" accept="image/*" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0]); $('#blah').css({width: '100%', 'padding': 0})">
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                     </div>
                 </div>
@@ -62,6 +66,29 @@
                 </div>
             </div>
         </div>
+        <!-- <div class="row justify-content-center mt-5">
+            <div class="col-md-6 text-center">
+                <div class="py-2 px-2">
+                    <h2 id="classification">Classification</h2>
+                    <div class="w-100" style="border-style: dashed; border-radius: 20px; object-fit: cover; " >
+                        <img id="blah" src="assets/img/picture.svg" alt="your image" style="width: 30%; padding-top: 50px; padding-bottom: 50px; border-radius: 20px;"/>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02" type="file" accept="image/*" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0]); $('#blah').css({width: '100%', 'padding': 0})">
+                        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="py-2 px-2">
+                    <h2>Result</h2>
+                    <div>
+                        <img id="preview0" src="https://www.arrotek.com/wp-content/uploads/2019/07/EU-Medical-Device-Classifications-Explained.jpg" class="w-100 rounded">
+                        <h5>Output klasifikasi</h5>
+                    </div>
+                </div>
+            </div>
+        </div> -->
         <div class="row justify-content-center">
             <h2 class="text-center mt-5 mb-4" id="developers">
                 <svg class="svg-inline--fa fa-user-friends fa-w-20" height="30" aria-hidden="true" focusable="false" data-prefix="fas"
@@ -134,7 +161,7 @@
             <div class="card mb-5 shadow p-3 bg-body rounded" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="mt-1 col-md-4">
-                        <img src="./assets/img/sample.png" class="img-fluid rounded" alt="...">
+                        <img src="./assets/img/daffa.jpeg" class="img-fluid rounded" style="height: 100%;">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -172,7 +199,7 @@
             <div class="card mb-5 mx-3 shadow p-3 bg-body rounded" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="mt-1 col-md-4">
-                        <img src="./assets/img/sample.png" class="img-fluid rounded" alt="...">
+                        <img src="./assets/img/andi.JPG" class="img-fluid rounded" style="height: 100%;">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -185,20 +212,20 @@
                             </ul>
                             </p>
                             <p class="card-link mb">
-                                <a class="text-decoration-none" href="https://linkedin.com/in/daffarayhanriadi" target="_blank"
+                                <a class="text-decoration-none" href="https://www.linkedin.com/in/novriyaandi/" target="_blank"
                                     rel="noopener noreferrer" class="text-decoration-none">
                                     <button class="btn btn-primary">
                                         <img src="./assets/img/linkedin.svg" alt="Linkedin-Logo" class="bg-white rounded" width="20">
                                         Linkedin
                                     </button>
                                 </a>
-                                <a class="text-decoration-none" href="https://github.com/Daffarr/" target="_blank" rel="noopener noreferrer">
+                                <a class="text-decoration-none" href="https://github.com/novriyaandi" target="_blank" rel="noopener noreferrer">
                                     <button class="btn btn-dark">
                                         <img src="./assets/img/github.svg" alt="Github-Logo" class="bg-white rounded-circle" width="20">
                                         Github
                                     </button>
                                 </a>
-                                <a class="text-decoration-none" href="mailto:daffarayhanriadi@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <a class="text-decoration-none" href="mailto:m200x0403@dicoding.org" target="_blank" rel="noopener noreferrer">
                                     <button class="btn btn-danger">
                                         <img src="./assets/img/email.svg" alt="Email-Logo" class="bg-white bg-opacity-25" width="20">
                                         Email
@@ -212,7 +239,7 @@
             <div class="card mb-5 shadow p-3 bg-body rounded" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="mt-1 col-md-4">
-                        <img src="./assets/img/sample.png" class="img-fluid rounded" alt="...">
+                        <img src="./assets/img/fajar.jpg" class="img-fluid rounded" style="height: 100%;">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -225,20 +252,20 @@
                             </ul>
                             </p>
                             <p class="card-link mb">
-                                <a class="text-decoration-none" href="https://linkedin.com/in/daffarayhanriadi" target="_blank"
+                                <a class="text-decoration-none" href="linkedin.com/in/fajarmaulanathaariqa" target="_blank"
                                     rel="noopener noreferrer" class="text-decoration-none">
                                     <button class="btn btn-primary">
                                         <img src="./assets/img/linkedin.svg" alt="Linkedin-Logo" class="bg-white rounded" width="20">
                                         Linkedin
                                     </button>
                                 </a>
-                                <a class="text-decoration-none" href="https://github.com/Daffarr/" target="_blank" rel="noopener noreferrer">
+                                <a class="text-decoration-none" href="https://github.com/alburuuj30" target="_blank" rel="noopener noreferrer">
                                     <button class="btn btn-dark">
                                         <img src="./assets/img/github.svg" alt="Github-Logo" class="bg-white rounded-circle" width="20">
                                         Github
                                     </button>
                                 </a>
-                                <a class="text-decoration-none" href="mailto:daffarayhanriadi@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <a class="text-decoration-none" href="mailto:fajarm643@gmail.com" target="_blank" rel="noopener noreferrer">
                                     <button class="btn btn-danger">
                                         <img src="./assets/img/email.svg" alt="Email-Logo" class="bg-white bg-opacity-25" width="20">
                                         Email
@@ -252,7 +279,7 @@
             <div class="card mb-5 mx-3 shadow p-3 bg-body rounded" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="mt-1 col-md-4">
-                        <img src="./assets/img/sample.png" style="height: 100%;" class="img-fluid rounded" alt="Daffa Rayhan Riadi - Image">
+                        <img src="./assets/img/Rere.jpg" style="height: 100%;" class="img-fluid rounded" alt="Daffa Rayhan Riadi - Image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -265,20 +292,20 @@
                                 </ul>
                             </p>
                             <p class="card-link mb">
-                                <a class="text-decoration-none" href="https://linkedin.com/in/daffarayhanriadi" target="_blank"
+                                <a class="text-decoration-none" href="https://www.linkedin.com/in/putri-reghina" target="_blank"
                                     rel="noopener noreferrer" class="text-decoration-none">
                                     <button class="btn btn-primary">
                                         <img src="./assets/img/linkedin.svg" alt="Linkedin-Logo" class="bg-white rounded" width="20">
                                         Linkedin
                                     </button>
                                 </a>
-                                <a class="text-decoration-none" href="https://github.com/Daffarr/" target="_blank" rel="noopener noreferrer">
+                                <a class="text-decoration-none" href="https://github.com/Rereghina" target="_blank" rel="noopener noreferrer">
                                     <button class="btn btn-dark">
                                         <img src="./assets/img/github.svg" alt="Github-Logo" class="bg-white rounded-circle" width="20">
                                         Github
                                     </button>
                                 </a>
-                                <a class="text-decoration-none" href="mailto:daffarayhanriadi@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <a class="text-decoration-none" href="mailto:m200y0404@dicoding.org" target="_blank" rel="noopener noreferrer">
                                     <button class="btn btn-danger">
                                         <img src="./assets/img/email.svg" alt="Email-Logo" class="bg-white bg-opacity-25" width="20">
                                         Email

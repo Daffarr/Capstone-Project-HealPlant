@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Other tags -->
+    <meta name="dicoding:email" content="daffarayhanriadi@gmail.com">
+    <!-- Other tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,29 +46,35 @@
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-6 text-center">
-                <div class="py-2 px-2">
-                    <h2 id="classification">Classification</h2>
-                    <div class="w-100" style="border-style: dashed; border-radius: 20px; object-fit: cover;" >
-                        <img id="blah" src="assets/img/picture.svg" alt="your image" style="width: 30%; padding-top: 50px; padding-bottom: 50px; border-radius: 20px; object-fit: cover; max-height: 280px;"/>
-                    </div>
-                    <div class="input-group mb-3 mt-3">
-                        <input type="file" class="form-control" id="inputGroupFile02" type="file" accept="image/*" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0]); $('#blah').css({width: '100%', 'padding': 0})">
-                        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+        <form action="" method="post">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 text-center">
+                    <div class="py-2 px-2">
+                        <h2 id="classification">Classification</h2>
+                        <!-- <div class="w-100" style="border-style: dashed; border-radius: 20px; object-fit: cover;">
+                            <img id="blah" src="assets/img/picture.svg" alt="your image"
+                                style="width: 30%; padding-top: 50px; padding-bottom: 50px; border-radius: 20px; object-fit: cover; max-height: 280px;" />
+                        </div> -->
+                        <div class="input-group mb-3 mt-3">
+                            <input name="test_img" type="file" class="form-control" id="inputGroupFile02" type="file" accept="image/*"
+                                onchange="document.getElementById('preview0').src = window.URL.createObjectURL(this.files[0]); $('#preview0').css({width: '100%', 'padding': 0})">
+                            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <div class="py-2 px-2">
-                    <h2>Result</h2>
-                    <div>
-                        <img id="preview0" src="https://www.arrotek.com/wp-content/uploads/2019/07/EU-Medical-Device-Classifications-Explained.jpg" class="w-100 rounded">
+                <div class="col-md-6 text-center">
+                    <div class="py-2 px-2">
+                        <h2>Result</h2>
+                        <div class="w-100" style="border-style: solid; border-radius: 20px; object-fit: cover;">
+                            <img id="preview0" src="assets/img/picture.svg" alt="your image"
+                                style="width: 30%; padding-top: 50px; padding-bottom: 50px; border-radius: 20px; object-fit: cover; max-height: 280px;">
+                        </div>
                         <h5>Output klasifikasi</h5>
+                        
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
         <div class="row justify-content-center">
             <h2 class="text-center mt-5 mb-4" id="developers">
                 <svg class="svg-inline--fa fa-user-friends fa-w-20" height="30" aria-hidden="true" focusable="false" data-prefix="fas"
@@ -246,24 +255,18 @@
                             <li>Datasets —
                                 <a class="text-decoration-none" href="https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset" target="_blank"><strong>Plant Disease Recognition Dataset</strong></a>
                             </li>
+                            <li>CSS Framework —
+                                <a class="text-decoration-none" href="https://getbootstrap.com/" target="_blank"><strong>Bootstrap
+                                        5.2.3</strong></a>
+                            </li>
                             <li>Palette —
                                 <a class="text-decoration-none" href="https://coolors.co/264653-2a9d8f-e76f51-ddd8b8-ffffff" target="_blank"><strong>Generate from Coolors</strong></a>
-                            </li>
-                            <li>CSS Framework —
-                                <a class="text-decoration-none" href="https://getbootstrap.com/" target="_blank"><strong>Bootstrap 5.2.3</strong></a>
                             </li>
                             <li>Icon Toolkit —
                                 <a class="text-decoration-none" href="https://freeicons.io/" target="_blank"><strong>Freeicons.io</strong></a>
                             </li>
                             <li>Gambar 1 —
                                 <a class="text-decoration-none" href="#developers"><strong>Heal Plant by Tim Pengembang</strong></a>
-                            </li>
-                            <li>Gambar 2 —
-                                <a class="text-decoration-none" href="https://www.freepik.com/free-vector/programmer-working-flat-style_4911013.htm#page=1&amp;query=developer&amp;position=0&amp;from_view=search"
-                                    target="_blank"><strong>Programmer working in flat style Free Vector Freepick by @pikisuperstar</strong></a>
-                            </li>
-                            <li>Hosting Platform —
-                                <a class="text-decoration-none" href="https://vercel.com/" target="_blank"><strong>Vercel</strong></a>
                             </li>
                         </ul>
                     </div>
